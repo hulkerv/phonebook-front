@@ -1,0 +1,1 @@
+export const Filter = ({handleFilter, findName}) => <p><label htmlFor="filter">filter shown with </label><input onChange={handleFilter} id="filter" type="text" placeholder="Search..." value={findName}/></p>
